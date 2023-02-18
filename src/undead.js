@@ -1,5 +1,4 @@
-import Character from './character';
-import { checkingName, checkingType } from './character';
+import Character, { checkingName, checkingType } from './character';
 
 export default class Undead extends Character {
   constructor(name, type) {

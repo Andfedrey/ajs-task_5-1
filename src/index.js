@@ -1,17 +1,17 @@
-import Bowerman from "./bowerman.js";
-import Character from "./character.js";
-import Daemon from "./daemon.js";
-import Magician from "./magician.js";
-import Swordsman from "./swordsman.js";
-import Undead from "./undead.js";
-import Zombie from "./zombie.js";
+import Bowerman from './bowerman';
+import Character from './character';
+import Daemon from './daemon';
+import Magician from './magician';
+import Swordsman from './swordsman';
+import Undead from './undead';
+import Zombie from './zombie';
 
 export default {
-  Bowerman, 
-  Character, 
-  Daemon, 
+  Bowerman,
+  Character,
+  Daemon,
   Magician,
   Swordsman,
   Undead,
   Zombie,
-}
+};

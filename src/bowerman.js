@@ -1,5 +1,4 @@
-import Character from './character';
-import { checkingName } from './character';
+import Character, { checkingName } from './character';
 
 export default class Bowerman extends Character {
   constructor(name, type) {
@@ -7,6 +6,6 @@ export default class Bowerman extends Character {
     this.name = name;
     this.type = type;
     this.attack = 25;
-    this.defence = 25
+    this.defence = 25;
   }
 }
